@@ -1,0 +1,11 @@
+<div class="container">
+    <img src="../../assets/images/logos/logo_RPSWorldOnline.png">
+    <div class="inputform">
+        <form action="" (submit)="authenticate()">
+            <input type="text" class="form-control" name="username" id="staticName" [(ngModel)]="username">
+            <!-- <input type="text" class="form-control" name="email" id="staticEmail" [(ngModel)]="email"> -->
+            <input type="password" class="form-control" name="password" id="authPassword" [(ngModel)]="password">
+            <button type="submit" id="submitbtn" class="btn btn-primary btn-sm">Sign in</button>
+        </form>
+    </div>
+</div>
